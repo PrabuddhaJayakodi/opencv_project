@@ -38,6 +38,7 @@
             this.btnAddPerson = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picCapture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDetected)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -46,17 +47,19 @@
             // 
             // picCapture
             // 
-            this.picCapture.Location = new System.Drawing.Point(5, 6);
+            this.picCapture.Location = new System.Drawing.Point(7, 7);
+            this.picCapture.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picCapture.Name = "picCapture";
-            this.picCapture.Size = new System.Drawing.Size(653, 436);
+            this.picCapture.Size = new System.Drawing.Size(871, 537);
             this.picCapture.TabIndex = 0;
             this.picCapture.TabStop = false;
             // 
             // btnCapture
             // 
-            this.btnCapture.Location = new System.Drawing.Point(665, 13);
+            this.btnCapture.Location = new System.Drawing.Point(887, 16);
+            this.btnCapture.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCapture.Name = "btnCapture";
-            this.btnCapture.Size = new System.Drawing.Size(123, 23);
+            this.btnCapture.Size = new System.Drawing.Size(164, 28);
             this.btnCapture.TabIndex = 1;
             this.btnCapture.Text = "1. Capture";
             this.btnCapture.UseVisualStyleBackColor = true;
@@ -64,9 +67,10 @@
             // 
             // btnDetectFaces
             // 
-            this.btnDetectFaces.Location = new System.Drawing.Point(665, 43);
+            this.btnDetectFaces.Location = new System.Drawing.Point(887, 53);
+            this.btnDetectFaces.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDetectFaces.Name = "btnDetectFaces";
-            this.btnDetectFaces.Size = new System.Drawing.Size(123, 23);
+            this.btnDetectFaces.Size = new System.Drawing.Size(164, 28);
             this.btnDetectFaces.TabIndex = 2;
             this.btnDetectFaces.Text = "2. Detect Faces";
             this.btnDetectFaces.UseVisualStyleBackColor = true;
@@ -74,16 +78,18 @@
             // 
             // txtPersonName
             // 
-            this.txtPersonName.Location = new System.Drawing.Point(666, 230);
+            this.txtPersonName.Location = new System.Drawing.Point(888, 283);
+            this.txtPersonName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPersonName.Name = "txtPersonName";
-            this.txtPersonName.Size = new System.Drawing.Size(122, 20);
+            this.txtPersonName.Size = new System.Drawing.Size(161, 22);
             this.txtPersonName.TabIndex = 3;
             // 
             // btnTrain
             // 
-            this.btnTrain.Location = new System.Drawing.Point(666, 256);
+            this.btnTrain.Location = new System.Drawing.Point(888, 315);
+            this.btnTrain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTrain.Name = "btnTrain";
-            this.btnTrain.Size = new System.Drawing.Size(122, 23);
+            this.btnTrain.Size = new System.Drawing.Size(163, 28);
             this.btnTrain.TabIndex = 5;
             this.btnTrain.Text = "4. Train Images";
             this.btnTrain.UseVisualStyleBackColor = true;
@@ -91,26 +97,29 @@
             // 
             // btnRecognize
             // 
-            this.btnRecognize.Location = new System.Drawing.Point(666, 285);
+            this.btnRecognize.Location = new System.Drawing.Point(888, 351);
+            this.btnRecognize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRecognize.Name = "btnRecognize";
-            this.btnRecognize.Size = new System.Drawing.Size(122, 23);
+            this.btnRecognize.Size = new System.Drawing.Size(163, 28);
             this.btnRecognize.TabIndex = 6;
             this.btnRecognize.Text = "5. Recognize Persons";
             this.btnRecognize.UseVisualStyleBackColor = true;
             // 
             // picDetected
             // 
-            this.picDetected.Location = new System.Drawing.Point(665, 101);
+            this.picDetected.Location = new System.Drawing.Point(887, 124);
+            this.picDetected.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picDetected.Name = "picDetected";
-            this.picDetected.Size = new System.Drawing.Size(123, 123);
+            this.picDetected.Size = new System.Drawing.Size(164, 151);
             this.picDetected.TabIndex = 7;
             this.picDetected.TabStop = false;
             // 
             // btnAddPerson
             // 
-            this.btnAddPerson.Location = new System.Drawing.Point(665, 73);
+            this.btnAddPerson.Location = new System.Drawing.Point(887, 90);
+            this.btnAddPerson.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddPerson.Name = "btnAddPerson";
-            this.btnAddPerson.Size = new System.Drawing.Size(123, 23);
+            this.btnAddPerson.Size = new System.Drawing.Size(164, 28);
             this.btnAddPerson.TabIndex = 9;
             this.btnAddPerson.Text = "3. Add Person";
             this.btnAddPerson.UseVisualStyleBackColor = true;
@@ -118,27 +127,39 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(674, 314);
+            this.pictureBox1.Location = new System.Drawing.Point(899, 386);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(53, 68);
+            this.pictureBox1.Size = new System.Drawing.Size(71, 84);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(733, 314);
+            this.pictureBox2.Location = new System.Drawing.Point(977, 386);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(53, 68);
+            this.pictureBox2.Size = new System.Drawing.Size(71, 84);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(916, 501);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAddPerson);
@@ -149,6 +170,7 @@
             this.Controls.Add(this.btnDetectFaces);
             this.Controls.Add(this.btnCapture);
             this.Controls.Add(this.picCapture);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Simple Face Recognition App";
             ((System.ComponentModel.ISupportInitialize)(this.picCapture)).EndInit();
@@ -172,6 +194,7 @@
         private System.Windows.Forms.Button btnAddPerson;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
